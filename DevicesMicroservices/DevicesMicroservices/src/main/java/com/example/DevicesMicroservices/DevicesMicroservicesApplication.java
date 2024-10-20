@@ -91,7 +91,7 @@ public class DevicesMicroservicesApplication {
 			System.out.println("**************************************************************************");
 			System.out.println("Devices found with findAll():" + deviceService.getAllDevices());
 
-			deviceService.deleteDevice(2L);
+		/*	deviceService.deleteDevice(2L);
 			System.out.println("**************************************************************************");
 			System.out.println("Devices found with findAll():" + deviceService.getAllDevices());
 
@@ -99,7 +99,7 @@ public class DevicesMicroservicesApplication {
 			System.out.println("**************************************************************************");
 			System.out.println("Users found with findAll():" + userService.getAllUsers());
 			System.out.println("**************************************************************************");
-			System.out.println("Devices found with findAll():" + deviceService.getAllDevices());
+			System.out.println("Devices found with findAll():" + deviceService.getAllDevices());*/
 
 
 		};
