@@ -1,0 +1,108 @@
+.signup-main-container {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(7, 6, 6, 0.75), rgb(0, 0, 0));
+  }
+  
+  .signup-container {
+    width: 100%;
+    max-width: 450px;
+    padding: 2rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    background-color: rgba(105, 105, 105, 0.9);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  
+  .signup-container h2 {
+    background-image: linear-gradient(to left, #ff008e 35%, #f00b51 100%, #fd02d3 80%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-bottom: 50px;
+  }
+  
+  .signup-container .form-group {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  
+  .signup-container h6 {
+    margin-bottom: 0.5rem;
+    background-image: linear-gradient(to left, #ff9900 35%, #f00b51 100%, #fd02d3 80%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: left;
+  }
+  
+  .signup-container input {
+    width: 100%;
+    padding: 0.5rem;
+    color: #fd02d3;
+    background-color: #2b292988;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 0.5rem;
+  }
+  
+  .signup-container .error {
+    color: red;
+    margin-top: -0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .signup-container button {
+    width: 100%;
+    font-weight: bold;
+    padding: 15px 0;
+    line-height: 25px;
+    font-size: 20px;
+    text-align: center;
+    margin: 20px 0;
+    background-color: transparent;
+    color: white;
+    border: 2px solid transparent;
+    border-image: linear-gradient(to left, #ffc000 0%, #f35322 31%, #fdc100 100%) 1;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: color 0.5s;
+  }
+  
+  .signup-container .hover-bg {
+    background-image: linear-gradient(to left, #ff00d9 0%, #f35322 31%, #1fffe1 100%);
+    height: 100%;
+    width: 0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 0;
+    transition: width 0.5s;
+  }
+  
+  .signup-container button:hover .hover-bg {
+    width: 100%;
+  }
+  
+  .signup-container .button-text {
+    position: relative;
+    z-index: 1;
+    transition: color 0.5s;
+  }
+  
+  .signup-container button:hover {
+    color: #000;
+  }
+  

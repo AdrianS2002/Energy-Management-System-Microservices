@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    font-family:'Poppins', sans-serif;
+    margin: 0;
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    background-image: none;
+    background-color: aquamarine;
+}
+
+.devices-table {
+    width: 100%;
+    border-collapse: collapse; /* Ensures that borders are merged */
+    margin-top: 20px;
+}
+  
+.devices-table th,
+.devices-table td {
+    
+    border: 1px solid #ddd; /* Adds border to all table cells */
+    padding: 12px; /* Adds padding for spacing */
+    text-align: center; /* Centers the text inside the table cells */
+}
+  
+.devices-table th {
+    
+    background-color: #fcf700d6; /* Light gray background for table headers */
+}
+  
+.user-devices h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+.devices-table tr:nth-child(even) {
+    background-color: #d38116; /* Alternate row background color */
+}
+  
+.devices-table tr:nth-child(odd) {
+    background-color: #922828; /* Alternate row background color */
+}
+  
+
+.devices-table tr:hover:nth-child(odd) {
+    background-color: #f31313a0; /* Background color on hover */
+}
+
+.devices-table tr:hover:nth-child(even) {
+        background-color: rgba(210, 158, 26, 0.627)/* Background color on hover */
+}
+
+
+.title {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  width: 100%;
+  margin-top: 20px;
+  color: #fff;
+}
+
+.title h2 {
+  margin: 0; 
+  padding: 10px;
+  flex-grow: 1; 
+  text-align: center; 
+}
+
+.logout {
+  cursor: pointer;
+}

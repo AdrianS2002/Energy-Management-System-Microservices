@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.mainLoginConteiner {
+    font-family:'Poppins', sans-serif;
+    margin: 0;
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Vertically centers the content */
+    flex-direction: column;
+    background-image: linear-gradient(rgba(185, 36, 36, 0.863),rgb(59, 26, 179));
+  }
+  
+  .login-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 2rem;
+    box-shadow: 10px 10px 8px rgba(255, 162, 2, 0.66);
+    border-radius: 10px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(46, 37, 96, 0.81);
+    color: white;
+
+  }
+
+  h2 {
+    background-image:linear-gradient(to left, #ff9900 35%,  #f00b51 100%, #fd02d3 80% );
+   -webkit-background-clip: text; /*fundalul s epune pe text*/
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: unset;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-bottom: 50px;
+  }
+  
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  h6 {
+    display: block;
+    margin-bottom: 0.5rem;
+    background-image:linear-gradient(to left, #ff9900 35%,  #f00b51 100%, #fd02d3 80% );
+    -webkit-background-clip: text; /*fundalul s epune pe text*/
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: unset;
+}
+  
+  input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    color: #fd02d3;
+    background-color: #2b292988;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .error {
+    color: red;
+    margin-top: -0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  button {
+    width: 300px;
+    font-weight: bold;
+    padding: 15px 0;
+    line-height: 25px;
+    font-size: 20px;
+    text-align: center;
+    margin: 80px 10px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid transparent; /* Adjust the button border */
+    border-image: linear-gradient(to left, #ffc000 0%, #f35322 31%, #fdc100 100%) 1;
+    cursor: pointer;
+    position: relative; /* Establish a context for the z-index */
+    overflow: hidden;
+    transition: color 0.5s;
+  }
+  
+  .hover-bg {
+    background-image: linear-gradient(to left, #ff00d9 0%, #f35322 31%, #1fffe1 100%);
+    height: 100%;
+    width: 0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 0; /* Make sure the background is below the text */
+    transition: width 0.5s;
+  }
+  
+  button:hover .hover-bg {
+    width: 100%;
+  }
+  
+  .button-text {
+    position: relative; /* So the text respects its z-index */
+    z-index: 1; /* Ensures the text stays above the background */
+    transition: color 0.5s;
+  }
+  
+  button:hover {
+    color: #000; /* Change text color on hover if desired for better contrast */
+  }
+
+  .signup-link a {
+    color: yellow; /* Makes the link text yellow */
+    text-decoration: none; /* Removes the underline */
+  }
+  
+  .signup-link a:hover {
+    text-decoration: underline; /* Adds an underline on hover if desired */
+  }
